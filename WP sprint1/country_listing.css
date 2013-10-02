@@ -1,0 +1,59 @@
+a {
+text-decoration: none;
+color: rgb(0, 102, 153);
+}
+a:focus {
+    outline: thin dotted;
+}
+
+#body{
+margin-top: 80px;
+margin-bottom: 10px;
+clear:both;
+margin-left: auto;
+margin-right: auto;
+width: 980px;
+
+}
+#page-title{
+margin: 0 10px 15px 10px;
+}
+#dabba{
+clear: both;
+
+content: "";
+display: table;
+clear: both;
+
+}
+ul.directory li {
+width: 160%;
+font-size: 13px;
+font-family: Arial,sans-serif;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 10px;
+margin-left: 1.2em;
+padding-left: 0px;
+}
+
+h1 {
+display: block;
+-webkit-margin-before: 0.67em;
+-webkit-margin-after: 0.67em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+.directory{
+overflow: hidden;
+zoom: 1;
+margin: 0 0 20px 0;
+list-style-type: disc;
+display:block;
+margin-bottom:0;
+}
+a:hover {
+text-decoration: underline;
+}
+
+div{display:block;}

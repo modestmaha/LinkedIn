@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	
+		<title>LinkedIn</title>
+		<link rel='stylesheet' type='text/css' href='reg.css' />
+	<!-- ("input").attr("maxlength", 4) js-->
+	</head>
+	
+	<body>
+	
+		<div id="container">
+			<div id="header">
+		
+		
+	
+			</div>
+			<div id="main">
+				<div id="mainWrapper">
+					<div id="main-error"> 
+					</div>
+					<!-- div generation using jquery/ajax -->
+					<div id="contentsWrapper">
+						<div id="alreadyJoinedError">
+							<div id="gotcha">
+								<p>
+									<span id="highlight">Hmmm...looks like you already have a LinkedIn account.</span>
+									<a href="https://www.linkedin.com/uas/login">Sign in now.</a>
+								</p>
+							</div>
+						</div>
+						<div id="messageDiv">
+							<h1>To join LinkedIn, sign up below...it's free!</h1>
+						</div>
+						<div id="parallelContents">
+							<div id="joinToday">
+								<div id="joinContent">
+									<form action="" method="post" name="registrationForm" novalidate="novalidate" id="joinTodayForm">
+										<fieldset>
+											<legend>Join Today</legend>
+											<ul>
+												<li id="fnjoinTodayli">
+													<label for="firstName">First Name:</label>
+													<div class="textTuple">
+														<span id="firstName-error"></span>
+														<input id="firstname" name="firstName" type="text" maxlength="15">
+													</div>
+												</li>
+												<li id="lnjoinTodayli">
+													<label for="lastName">Last Name:</label>
+													<div class="textTuple">
+														<span id="lastName-error"></span>
+														<input id="lastname" name="lastName" type="text" maxlength="30">
+													</div>
+												</li>
+												<li id="emjoinTodayli">
+													<label for="emailAddress">Email:</label>
+													<div class="textTuple">
+														<span id="emailAddress-error"></span>
+														<input id="emailaddress" name="emailAddress" type="text" maxlength="30">
+													</div>
+												</li>
+												<li id="psjoinTodayli">
+													<label for="password">Password:</label>
+													<div class="textTuple">
+														<span id="password-error"></span>
+														<input id="pass" name="password" type="text" maxlength="15">
+													</div>
+												</li>
+											</ul>
+											<p class="passLength">6 or more characters</p>
+											<p class="action">
+												<input id="submitButton" type="submit" value="Join LinkedIn" >
+												<a href="">*</a>
+											</p>
+											<p class="alreadyJoined">Already on LinkedIn?
+											<a href="https://www.linkedin.com/uas/login">Sign in</a>
+											</p>
+										</fieldset>
+									</form>
+								</div>
+							</div>
+							<div id="sideDiv">
+								<div id="facebookSignUp">
+									<p class="textScribbled">Save time by using your Facebook account to sign up for LinkedIn.</p>
+									<p class="facebook">
+										<span class="facebookButton">Sign up with Facebook</span>
+									</p>
+								</div>
+							</div>
+							<div id="agreement"><!--iske andar text ho ga-->
+							<p> *By joining LinkedIn,you agree to LinkedIn's <a href="google.com">User Agreement, 
+								</a> <a href="google.com">Private Policy</a> 
+								and <a href="google.com">Cookie Policy.</a>
+							</p>
+						</div>
+						</div>
+						
+					</div>	
+				</div>
+			</div>
+			<div id="footer">
+		
+		
+	
+			</div>
+	
+		</div>
+	</body>
+	
+</html>
