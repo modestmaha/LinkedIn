@@ -69,9 +69,9 @@ $active_group = 'heroku';
 
 
 $db['heroku']['hostname'] = 'ec2-184-73-254-144.compute-1.amazonaws.com';
-$db['heroku']['username'] = 'nrnflpswrbqjrx';
-$db['heroku']['password'] = 'UYX8HGEhHfzFbN6XOacSDZPsFD';
-$db['heroku']['database'] = 'd63bj40ja0gkfk';
+$db['heroku']['username'] = 'dvtjaghnuyyiaj';
+$db['heroku']['password'] = 'XatXEJy0m_fUWNzfwW-jGjgWu5';
+$db['heroku']['database'] = 'dalj3q5mck05nt';
 $db['heroku']['dbdriver'] = 'postgre'; 
 $db['heroku']['dbprefix'] = '';
 $db['heroku']['pconnect'] = TRUE;
