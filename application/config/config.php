@@ -14,7 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/LinkedIn/';
+//$config['base_url']	= 'http://localhost/LinkedIn/';
+$config['base_url']	= 'http://shopify-coupons.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------

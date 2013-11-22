@@ -45,24 +45,45 @@
 | the active record class
 */
 
-$active_group = 'default';
+//$active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'chimp';
-$db['default']['dbdriver'] = 'mysql';
-$db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
+// $db['default']['hostname'] = 'localhost';
+// $db['default']['username'] = 'root';
+// $db['default']['password'] = '';
+// $db['default']['database'] = 'chimp';
+// $db['default']['dbdriver'] = 'mysql';
+// $db['default']['dbprefix'] = '';
+// $db['default']['pconnect'] = TRUE;
+// $db['default']['db_debug'] = TRUE;
+// $db['default']['cache_on'] = FALSE;
+// $db['default']['cachedir'] = '';
+// $db['default']['char_set'] = 'utf8';
+// $db['default']['dbcollat'] = 'utf8_general_ci';
+// $db['default']['swap_pre'] = '';
+// $db['default']['autoinit'] = TRUE;
+// $db['default']['stricton'] = FALSE;
+
+$active_group = 'heroku';
+
+
+
+$db['heroku']['hostname'] = 'ec2-54-204-38-16.compute-1.amazonaws.com';
+$db['heroku']['username'] = 'vkxxoaichftgyo';
+$db['heroku']['password'] = 'vmJ_SKaQ3CKH8dmydZLGbFiCrV';
+$db['heroku']['database'] = 'd45ut646cr7n15';
+$db['heroku']['dbdriver'] = 'postgre'; 
+$db['heroku']['dbprefix'] = '';
+$db['heroku']['pconnect'] = TRUE;
+$db['heroku']['db_debug'] = TRUE;
+$db['heroku']['cache_on'] = FALSE;
+$db['heroku']['cachedir'] = '';
+$db['heroku']['char_set'] = 'utf8';
+$db['heroku']['dbcollat'] = 'utf8_general_ci';
+$db['heroku']['swap_pre'] = '';
+$db['heroku']['autoinit'] = TRUE;
+$db['heroku']['stricton'] = FALSE;
+$db['heroku']['port'] = 5432; 
 
 
 /* End of file database.php */
